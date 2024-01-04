@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body{
+	background-image: url("homepagebg.png");
+	background-size: cover;
+}
+
+div p{
+	font-size: 60px;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}	
+
+#cta{
+	margin: 40px 80px;
+	font-size: 40px;
+	color:black;
+	text-shadow: 1px 1px 10px white;
+}
+
+.container{
+	text-align:center;
+	font-family: serif;
+}
+
+.btn{
+	margin: 50px 550px;
+	text-align:center;
+	font-family: serif;
+	font-size: 36px;
+	/*border: 2px solid black;
+	outline: 2px solid white;*/
+	justify-content:center;
+	
+}
+
+.btn a{
+	outline: 4px groove white;
+	text-decoration:none;
+	color:white;
+}
+
+.btn a:hover{
+	outline: 4px ridge black;
+	text-shadow: 1px 1px 10px black;
+}
+
+
+
